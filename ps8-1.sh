@@ -3,4 +3,4 @@
 
 echo $(( ( RANDOM % 6 )  + 1 ))
 
-echo {!var_name[@]}
+echo `expr $dice + 1`
