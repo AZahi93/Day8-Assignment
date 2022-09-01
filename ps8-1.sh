@@ -1,6 +1,7 @@
 #!/bin/bash -x
 
 
-echo $(( ( RANDOM % 6 )  + 1 ))
+DICE=$(( ( RANDOM % 6 )  + 1 ))
 
-echo `expr $dice + 1`
+echo `expr $DICE + 1`
+
